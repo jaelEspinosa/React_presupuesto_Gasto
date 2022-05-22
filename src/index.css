@@ -70,14 +70,28 @@ header h1 {
   
 }
 @media (max-width: 768px) {
-    .campo{         
+    .formulario{
+        width: 100vw;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+    .campo{         
+        display: flex!important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 2rem;
         
     }
+   .submit{
+       
+       width: 90vw!important;
+       border-radius: 20px;
+       
+       
+   }
 }
 
  
