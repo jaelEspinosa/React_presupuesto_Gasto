@@ -7,7 +7,7 @@ const Modal = ({setModal, animarModal, setAnimarModal}) => {
         setAnimarModal(false)
         setTimeout(() => {
             setModal(false)   
-        }, 400);
+        }, 300);
        
       
        
