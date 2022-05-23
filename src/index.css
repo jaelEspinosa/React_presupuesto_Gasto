@@ -87,7 +87,7 @@ header h1 {
     }
    .submit{
        
-       width: 90vw!important;
+       width: 50vw!important;
        border-radius: 20px;
        
        
@@ -297,9 +297,9 @@ main {
 
 .gasto {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     margin-bottom: 2rem;
     width: 100%;
 }

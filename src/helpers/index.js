@@ -17,3 +17,10 @@ export const formatearFecha = fecha =>{
     }
     return fechaNueva.toLocaleDateString('es-ES',opciones)
 }
+
+export  const formatearcantidad = (cantidad) =>{
+    return cantidad.toLocaleString('es-ES',{
+        style:'currency',
+        currency:'EUR'
+    })
+}

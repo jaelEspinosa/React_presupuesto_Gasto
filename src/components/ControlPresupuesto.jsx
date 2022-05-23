@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { formatearcantidad } from '../helpers'
 
 const ControlPresupuesto = ({gastos, presupuesto}) => {
 
@@ -13,14 +14,9 @@ const ControlPresupuesto = ({gastos, presupuesto}) => {
     setGastado(totalGastado)
     setDisponible(totalDisponible)
     },[gastos])
-    
-    
-    const formatearcantidad = (cantidad) =>{
-        return cantidad.toLocaleString('es-ES',{
-            style:'currency',
-            currency:'EUR'
-        })
-    }
+   
+   
+ 
   return (
     <div className='contenedor-presupuesto contenedor sombra dos-columnas'>
 
