@@ -8,3 +8,4 @@
 <h1>npm run dev</h1>
 
 <p>para editar gasto deslizar hacia la derecha</p>
+<p>para eliminar gasto deslizar hacia la izquierda</p>
