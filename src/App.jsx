@@ -99,6 +99,7 @@ useEffect(()=>{
      <div className={modal ? 'fijar' : ''}>
        <Header
          gastos={gastos}
+         setGastos={setGastos}
          presupuesto={presupuesto}
          setPresupuesto={setPresupuesto}
          isValidPresupuesto={isValidPresupuesto}
@@ -112,7 +113,7 @@ useEffect(()=>{
                   setFiltro={setFiltro}
                  />
                  <ListadoGastos
-                   gastos = {gastos}
+                   gastos = {gastos}                   
                    setGastoEditar={setGastoEditar}
                    eliminarGasto={eliminarGasto}
                    filtro = {filtro}
