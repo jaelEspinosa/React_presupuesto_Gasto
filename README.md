@@ -9,3 +9,7 @@
 
 <p>para editar gasto deslizar hacia la derecha</p>
 <p>para eliminar gasto deslizar hacia la izquierda</p>
+
+<h3>Descripción</h3>
+<p>Es una app en la que despues de fijar un presupuesto, puedes ir añadiendo gastos para ir controlando el gasto, de un periodo de tiempo o evento.
+</p>
